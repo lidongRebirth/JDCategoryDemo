@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/sel_left_item_bg"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/tvLeftMenuName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="护肤"
+        android:textColor="@color/sel_left_item_text"
+        android:textSize="14sp" />
+    <View
+        android:id="@+id/vLeftLine"
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="12dp"
+        android:background="#0569FF"
+        android:layout_marginBottom="12dp" />
+
+</RelativeLayout>
